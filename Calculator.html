@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Calculator</title>
+     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="Calculator.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,6 +10,56 @@
       href="https://fonts.googleapis.com/css2?family=Acme&family=Finger+Paint&family=Handlee&family=Kavoon&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=New+Amsterdam&family=Patrick+Hand+SC&family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Doodle+Shadow&family=Rubik+Vinyl&family=Salsa&family=Squada+One&family=Square+Peg&family=Vibur&family=Waiting+for+the+Sunrise&display=swap"
       rel="stylesheet"
     />
+    <style>
+      @media only screen and (min-width: 220px) and (max-width: 740px) and (orientation: portrait) {
+        .body-div {
+          background-image: url(Files/2f1e0a5070f684f6fe7bc9ee17d2c49b.jpg);
+          border: 2px solid black;
+          width: 250px;
+          padding-left: 30px;
+          padding-top: 25px;
+          display: inline-block;
+          position: absolute;
+          left: 0;
+        }
+        button {
+          padding: 20px;
+          margin-top: 0;
+          vertical-align: top;
+        }
+        .key-input {
+          width: 200px;
+          height: 15px;
+          font-size: 20px;
+          padding: 15px;
+          background-color: rgba(250, 199, 253, 0.968);
+          color: rgba(26, 25, 25, 0.831);
+          font-family: finger paint, arial;
+          font-weight: 600;
+        }
+        .result-p {
+          border: 2px solid black;
+          width: 200px;
+          height: 15px;
+          text-align: center;
+          padding: 15px;
+          font-size: 20px;
+          background-color: rgb(250, 199, 253);
+          color: rgba(26, 25, 25, 0.831);
+          font-family: finger paint, arial;
+          font-weight: 600;
+        }
+        .one-button {
+          padding: 0;
+          border: none;
+          background-color: transparent;
+        }
+        .one-img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="body-div">
